@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LeBeaux Legacy</title>
+<meta name="description" content="Affordable housing solutions for every family. Making homeownership accessible for everyone, one community at a time.">
+<meta property="og:title" content="LeBeaux Legacy">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:hsl(40 33% 96%);--fg:hsl(160 30% 12%);--primary:hsl(160 35% 22%);--secondary:hsl(90 20% 88%);--accent:hsl(43 75% 48%);--muted:hsl(160 10% 40%)}
+*{box-sizing:border-box}body{margin:0;font-family:"DM Sans",system-ui,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6}
+h1,h2,h3,.logo{font-family:"DM Serif Display",serif;font-weight:400}
+a{color:inherit}
+.wrap{max-width:1150px;margin:0 auto;padding:0 24px}
+header{position:fixed;top:0;left:0;right:0;z-index:10;background:hsla(40,33%,96%,.92);backdrop-filter:blur(8px);border-bottom:1px solid hsl(40 20% 88%)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{display:flex;align-items:center;gap:10px;font-size:1.3rem;text-decoration:none;color:var(--primary)}
+.mark{width:34px;height:34px;border-radius:50%;border:2px solid var(--primary);display:grid;place-items:center;font-size:1rem}
+nav a{margin-left:26px;text-decoration:none;font-size:.95rem;color:var(--muted)}nav a:hover{color:var(--primary)}
+.btn{display:inline-block;padding:11px 22px;border-radius:8px;background:var(--primary);color:#fff!important;text-decoration:none;font-weight:500}
+.btn.alt{background:transparent;border:2px solid #fff}
+.btn.gold{background:var(--accent);color:var(--fg)!important}
+.hero{min-height:88vh;display:flex;align-items:center;text-align:center;color:#fff;background:linear-gradient(hsla(160,35%,12%,.62),hsla(160,35%,12%,.62)),url(assets/hero.jpg) center/cover;padding:120px 0 80px}
+.hero h1{font-size:clamp(2.4rem,6vw,4.2rem);line-height:1.1;margin:0 0 18px}
+.hero p{max-width:640px;margin:0 auto 30px;font-size:1.15rem;opacity:.92}
+section{padding:90px 0}
+.eyebrow{color:var(--accent);text-transform:uppercase;letter-spacing:.12em;font-size:.8rem;font-weight:700}
+h2{font-size:clamp(2rem,4vw,2.8rem);margin:8px 0 16px;color:var(--primary)}
+.lead{max-width:680px;color:var(--muted);font-size:1.1rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;margin-top:44px}
+.card{background:#fff;border-radius:14px;padding:28px;box-shadow:0 2px 14px rgba(0,0,0,.05)}
+.card h3{margin:0 0 8px;font-size:1.35rem;color:var(--primary)}.card p{margin:0;color:var(--muted)}
+.icon{width:46px;height:46px;border-radius:10px;background:var(--secondary);display:grid;place-items:center;margin-bottom:16px;font-size:1.3rem}
+.cta{background:var(--primary);color:#fff;text-align:center;border-radius:20px;padding:64px 28px}
+.cta h2{color:#fff}.cta p{opacity:.88;max-width:600px;margin:0 auto 24px}
+.contact{display:flex;gap:28px;justify-content:center;flex-wrap:wrap;margin-bottom:28px}
+.contact a{text-decoration:none;font-weight:500}
+.cta .btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+footer{background:hsl(160 30% 10%);color:hsl(40 33% 90%);padding:56px 0 28px}
+footer .cols{display:grid;grid-template-columns:2fr 1fr;gap:32px}
+footer h4{margin:0 0 12px;font-size:.95rem}footer a{display:block;text-decoration:none;opacity:.8;margin:6px 0}
+footer .logo{color:#fff}footer .mark{border-color:#fff}
+.copy{border-top:1px solid hsla(0,0%,100%,.12);margin-top:36px;padding-top:20px;font-size:.85rem;opacity:.7;text-align:center}
+@media(max-width:700px){nav a:not(.btn){display:none}footer .cols{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<a class="logo" href="#top"><span class="mark">L</span>LeBeaux Legacy</a>
+<nav><a href="#mission">Our Mission</a><a href="#contact">Contact</a><a class="btn" href="#contact">Get Started</a></nav>
+</div></header>
+
+<main id="top">
+<section class="hero"><div class="wrap">
+<h1>Find Your Place to Call Home</h1>
+<p>Affordable housing solutions for every family. Browse communities, explore listings, and take the first step toward homeownership.</p>
+<a class="btn gold" href="#contact">Get Started</a>
+</div></section>
+
+<section id="mission"><div class="wrap">
+<div class="eyebrow">Why LeBeaux Legacy</div>
+<h2>Everyone Deserves a Place to Thrive</h2>
+<p class="lead">We're on a mission to close the housing gap. By combining smart development with community values, we make homeownership a reality — not a dream.</p>
+<div class="grid">
+<div class="card"><div class="icon">🏷️</div><h3>Below-Market Pricing</h3><p>We partner with developers and municipalities to offer homes at prices families can actually afford.</p></div>
+<div class="card"><div class="icon">🛡️</div><h3>Trusted Process</h3><p>Transparent pricing, no hidden fees. We guide you through every step of the home-buying journey.</p></div>
+<div class="card"><div class="icon">🤝</div><h3>Community Focused</h3><p>Every neighborhood we build fosters connection — parks, shared spaces, and local partnerships.</p></div>
+<div class="card"><div class="icon">🔨</div><h3>Built With Care</h3><p>Quality construction, energy-efficient designs, and homes that stand the test of time.</p></div>
+</div>
+</div></section>
+
+<section id="contact" style="padding-top:0"><div class="wrap">
+<div class="cta">
+<h2>Ready to Find Your Home?</h2>
+<p>Let our team help you explore affordable options in your area. Schedule a free consultation today.</p>
+<div class="contact"><a href="mailto:eric@lebeauxlegacy.com">✉ eric@lebeauxlegacy.com</a><a href="tel:+14696197780">☎ (469) 619-7780</a></div>
+<div class="btns"><a class="btn gold" href="mailto:eric@lebeauxlegacy.com?subject=Consultation%20Request">Schedule Consultation</a></div>
+</div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+<div class="cols">
+<div><a class="logo" href="#top"><span class="mark">L</span>LeBeaux Legacy</a><p style="opacity:.8;max-width:340px">Making homeownership accessible for everyone, one community at a time.</p></div>
+<div><h4>Support</h4><a href="#mission">Our Mission</a><a href="mailto:eric@lebeauxlegacy.com">Contact Us</a><a href="tel:+14696197780">(469) 619-7780</a></div>
+</div>
+<div class="copy">© 2026 LeBeaux Legacy. All rights reserved.</div>
+</div></footer>
+</body>
+</html>
